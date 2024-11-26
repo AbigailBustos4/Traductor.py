@@ -39,7 +39,7 @@ def diccinario_traducciones():
         print("4. Mostrar todas las palabras")
         print("5. Guardar y salir")
 
-        opcion = int(input("Eleige una opcion del 1 al 5: "))
+        opcion = int(input("Elige una opcion del 1 al 5: "))
 
         if opcion == 1:
             palabra = input("Escribe una palabra para traducir: ").lower()
@@ -52,7 +52,7 @@ def diccinario_traducciones():
             else:
                 print(f"La palabra '{palabra}' no está en el diccionario. Ingresa a la opcion 2 y agregala.")
         elif opcion == 2:
-            palabra_es = input("Escribe la palabra en espeañol: ").lower()
+            palabra_es = input("Escribe la palabra en español: ").lower()
             palabra_in = input("Escribe la traduccion en inglés: ").lower()
             if palabra_es in diccionario:
                 print(f"La palabra '{palabra_es}' ya esta en el diccionario")
